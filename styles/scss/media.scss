@@ -1,0 +1,246 @@
+@media screen and (max-width: 1130px){
+    .portfolio{
+        &__item{
+            max-width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 990px){
+    .header{
+        &__bg{
+            &--solid{
+                max-width: 330px;
+            }
+        }
+
+        &__banner{
+            &-wrap{
+                padding-bottom: 100px;
+            }
+        }
+
+        &__person{
+            margin-right: 20px;
+            img{
+                max-width: 370px;
+                margin-left: 40px;
+            }
+            &-label{
+                max-width: 250px;
+            }
+        }
+
+        &__paragraph{
+            max-width: 400px;
+        }
+
+        &__title{
+            font-size: 70px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .portfolio{
+        &__item{
+            max-width: 310px;
+
+        }
+
+        &__wrap{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            &--padding{
+                padding-bottom: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .header{
+        &__banner{
+            &-wrap{
+                flex-direction: column;
+                padding-bottom: 70px;
+            }
+        }
+
+        &__paragraph{
+            max-width: 100%;
+        }
+
+        &__socials{
+            &-item{
+                background: #ffffff;
+            }
+        }
+
+        &__person{
+            margin: 0;
+            margin-bottom: 50px;
+            img{
+                margin: 0;
+                box-shadow: 0px 0px 30px 30px rgba(0,0,0,0.3);
+            }
+            &-label{
+                margin: 0px auto;
+                margin-top: -30px;
+            }
+        }
+
+        &__bg{
+            flex-direction: column;
+            &--solid{
+                max-width: 100%;
+                width: 100%;
+                height: 1000px;
+            }
+
+            &--dotted{
+                height: 100%;
+            }
+        }
+    }
+
+    .footer{
+        &__contact{
+            flex-direction: column;
+        }
+        &__form{
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+    }
+
+    .portfolio{
+        &__grid{
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        &__wrap{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            &--padding{
+                padding-bottom: 60px;
+                
+            }
+        }
+
+        &__item{
+            max-width: 480px;
+            width: calc(100% - 50px);
+            &:nth-child(2n){
+                transform: unset;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px){
+
+    .wrap{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .header{
+        &__title{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 60px;
+        }
+
+        &__button{
+            max-width: 100%;
+        }
+
+        &__paragraph{
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        &__logo{
+            margin-left: 10px;
+            min-width: 60px;
+            width: 60px;
+            height: 60px;
+            SPAN{
+                font-size: 16px;
+            }
+        }
+
+        &__socials{
+            &-item{
+                width: 40px;
+                height: 40px;
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        &__bg{
+            &--solid{
+                height: 550px;
+            }
+        }
+
+        &__button{
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+
+        &__person{
+            margin-bottom: 40px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+
+    .footer{
+        &__button{
+            margin: 0px auto;
+        }
+        &__form{
+            padding: 20px 30px;
+            margin: 0px -10px;
+            margin-top: 30px;
+            width: auto;
+            &-input{
+                margin-bottom: 25px;
+            }
+            &-label{
+                font-size: 14px;
+            }
+            &-paragraph{
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            &-tarea{
+                margin-bottom: 40px;
+            }
+        }
+        &__contact{
+            padding-bottom: 0;
+        }
+    }
+
+    .portfolio{
+        
+
+        &__item{
+            span{
+                margin-top: 5px;
+            }
+        }
+    }
+    
+}
