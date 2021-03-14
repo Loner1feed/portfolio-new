@@ -34,14 +34,25 @@ body{
     width: 100%;
     text-decoration: none;
     border: 1px solid;
+
+    &--anim{
+        animation: btnAnim 0.5s ease;
+    }
     
     &--blue{
         background: $blue;
         color: #ffffff;
         &:hover{
             background: $blue-hover;
+            transform: translateY(-5px);
+        }
+
+        &:focus:not(:active) {
+            animation: btnAnim 0.3s;
         }
     }
+
+
 
     &--white{
         background: #ffffff;
@@ -51,6 +62,20 @@ body{
             color: #ffffff;
             border-color: #fff;
         }
+    }
+}
+
+@keyframes btnAnim{
+    0%{
+        transform: translateY(-5px);
+    }
+
+    25%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-5px);
     }
 }
 
@@ -194,6 +219,9 @@ body{
         justify-content: center;
         align-items: center;
         margin-left: 15px;
+
+        text-decoration: none;
+
         span{
             color: #ffffff;
             display: block;
@@ -327,6 +355,7 @@ body{
             width: 35px;
             height: 35px;
             opacity: 0.3;
+            color: inherit;
             &:nth-child(2){
                 margin: 0px 20px;
             }
