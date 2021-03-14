@@ -1,3 +1,13 @@
+$(document).ready(function(){
+
+    // preload
+    $('.preloader').addClass('preloader--closeAnim');
+    window.setTimeout(function () {
+        $('.preloader').addClass('preloader--closed');
+        $('.preloader').removeClass('preloader--closeAnim');
+    }, 1000);
+});
+
 var inputInfo = $('.footer__form-input input[name="info"]');
 var inputMail = $('.footer__form-input input[name="mail"]');
 var field;
@@ -43,6 +53,8 @@ if(portfolioItems %2 == 0){
 } else {
     $('.portfolio__wrap').removeClass('portfolio__wrap--padding');
 }
+
+
 
 
 
