@@ -1,0 +1,37 @@
+.logo {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transform: rotate(45deg);
+  border: 5px solid #fff;
+  font-display: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+
+  text-decoration: none;
+
+  span {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    transform: rotate(-45deg);
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .logo {
+    margin-left: 10px;
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+    span {
+      font-size: 16px;
+    }
+  }
+}

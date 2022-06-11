@@ -1,0 +1,30 @@
+$blue: #000fff;
+
+.wrap {
+  height: calc(100vh - 300px);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -100px;
+}
+
+.text {
+  text-align: center;
+  position: relative;
+  font-size: 62px;
+  line-height: 72px;
+  margin: 0px auto;
+  max-width: 900px;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 3px solid $blue;
+    z-index: -1;
+    top: -50px;
+    bottom: -50px;
+    right: 20%;
+    left: 20%;
+  }
+}

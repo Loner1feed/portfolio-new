@@ -1,0 +1,50 @@
+$blue: #000fff;
+$blue-hover: #030ea7;
+
+.button {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  max-width: 210px;
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid;
+  transition: 0.3s;
+  &--anim {
+    animation: btnAnim 0.5s ease;
+  }
+
+  &__blue {
+    background: $blue;
+    color: #ffffff;
+    &:hover {
+      background: $blue-hover;
+      transform: translateY(-5px);
+    }
+
+    &:focus:not(:active) {
+      animation: btnAnim 0.3s;
+    }
+  }
+
+  &--white {
+    background: #ffffff;
+    color: $blue;
+    &:hover {
+      background: $blue;
+      color: #ffffff;
+      border-color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .button {
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+}
