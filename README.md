@@ -2,7 +2,7 @@
 
 # TODO:
 
-Add footer -
-Add animations -
-Add popups with detailed info about the project -
-Think about comfortable way to add new portfolio items -
+* Add footer -
+* Add animations -
+* Add popups with detailed info about the project -
+* Think about comfortable way to add new portfolio items -
