@@ -1,4 +1,6 @@
 import React from "react";
+import { Github } from "../../assets/icons/Github";
+import { Linkedin } from "../../assets/icons/Linkedin";
 import { Telegram } from "../../assets/icons/Telegram";
 import { Badge } from "../Badge/Badge";
 import { Button } from "../Button/Button";
@@ -15,6 +17,11 @@ export const Header = () => {
           <Logo />
           <div className={header.links}>
             <Badge icon={<Telegram />} link="https://t.me/Loner_feed" />
+            <Badge
+              icon={<Linkedin />}
+              link="https://www.linkedin.com/in/eugen-guriev-309035212/"
+            />
+            <Badge icon={<Github />} link="https://github.com/Loner1feed" />
           </div>
         </div>
       </div>
@@ -37,7 +44,7 @@ export const Header = () => {
               make your project better and more interesting.
             </p>
 
-            <Button text="My resume" type="blue" />
+            <Button text="My resume" type="blue" link="../../resume.pdf" />
           </div>
         </div>
       </div>

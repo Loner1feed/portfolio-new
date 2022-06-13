@@ -5,7 +5,7 @@ import body from "./Body.module.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { DescBlock } from "../DescBlock/DescBlock";
-import { Grid } from "../Grid/Grid";
+import Grid from "../Grid/Grid";
 import { EmptyPlaceholder } from "../EmptyPlaceholder/EmptyPlaceholder";
 
 export const Body = () => {
