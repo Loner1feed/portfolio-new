@@ -6,7 +6,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { DescBlock } from "../DescBlock/DescBlock";
 import Grid from "../Grid/Grid";
-import { EmptyPlaceholder } from "../EmptyPlaceholder/EmptyPlaceholder";
+// import { EmptyPlaceholder } from "../EmptyPlaceholder/EmptyPlaceholder";
 
 export const Body = () => {
   return (
@@ -27,7 +27,7 @@ export const Body = () => {
             stack="HTML, CSS/SCSS, JS/JQUERY"
             description="Classic adaptive landing page or multi page websites"
           />
-          <Grid />
+          <Grid type="web" />
         </TabPanel>
 
         <TabPanel className={body.tabPanel}>
@@ -35,7 +35,8 @@ export const Body = () => {
             stack="React, Redux Toolkit, REST, NodeJS"
             description="Multi functional, modern and scalable websites (a.c. web apps)"
           />
-          <EmptyPlaceholder />
+          {/* <EmptyPlaceholder /> */}
+          <Grid type="react" />
         </TabPanel>
       </Tabs>
     </div>

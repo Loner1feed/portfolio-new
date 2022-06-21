@@ -4,8 +4,9 @@ import grid from "./Grid.module.scss";
 import { items } from "../../constants/items";
 import { Item } from "../Item/Item";
 // eslint-disable-next-line no-unused-vars
-const Grid = () => {
-  const filtered = items.find((item) => item.category === "web");
+// type = web || react
+const Grid = ({ type }) => {
+  const filtered = items.find((item) => item.category === type);
   const data = filtered.data.map((item) => (
     <Item key={item.id} img={item.img} title={item.title} link={item.link} />
   ));

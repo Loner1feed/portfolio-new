@@ -5,6 +5,7 @@ import cantelmo from '../assets/items/cantelmo.png'
 import iclimat from '../assets/items/iclimat.png'
 import supergoods from '../assets/items/supergoods.png'
 import alena from '../assets/items/alena.png'
+import pdf from '../assets/items/pdf.png'
 
 
 export const items = [
@@ -61,9 +62,9 @@ export const items = [
     data: [
       {
         id: 1,
-        title: '',
-        link: '',
-        img: '',
+        title: 'WYSIWYG PDF generation app',
+        link: 'https://github.com/Loner1feed/pdf-generation-app',
+        img: pdf,
       }
     ]
   }
