@@ -6,6 +6,7 @@ import iclimat from '../assets/items/iclimat.png'
 import supergoods from '../assets/items/supergoods.png'
 import alena from '../assets/items/alena.png'
 import pdf from '../assets/items/pdf.png'
+import weather from '../assets/items/weather.png'
 
 
 export const items = [
@@ -65,6 +66,13 @@ export const items = [
         title: 'WYSIWYG PDF generation app',
         link: 'https://github.com/Loner1feed/pdf-generation-app',
         img: pdf,
+      },
+
+      {
+        id: 2,
+        title: 'Simple weather app',
+        link: 'https://loner1feed.github.io/weather-app/',
+        img: weather,
       }
     ]
   }
