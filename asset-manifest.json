@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-new/static/css/main.319ecd7b.css",
-    "main.js": "/portfolio-new/static/js/main.63586674.js",
-    "static/css/286.f78ff3f4.chunk.css": "/portfolio-new/static/css/286.f78ff3f4.chunk.css",
-    "static/js/286.5d412152.chunk.js": "/portfolio-new/static/js/286.5d412152.chunk.js",
+    "main.js": "/portfolio-new/static/js/main.8028df87.js",
+    "static/css/42.2d6bae3b.chunk.css": "/portfolio-new/static/css/42.2d6bae3b.chunk.css",
+    "static/js/42.8ff5bdcc.chunk.js": "/portfolio-new/static/js/42.8ff5bdcc.chunk.js",
     "static/js/472.6f61ad9e.chunk.js": "/portfolio-new/static/js/472.6f61ad9e.chunk.js",
     "static/media/alena.png": "/portfolio-new/static/media/alena.528858d12f250a9b6b11.png",
+    "static/media/weather.png": "/portfolio-new/static/media/weather.d9fc1c354cc9b8306c41.png",
     "static/media/comfortLuk.png": "/portfolio-new/static/media/comfortLuk.674afa4c51047a13de35.png",
     "static/media/cantelmo.png": "/portfolio-new/static/media/cantelmo.1f427049b3ea50e7ccea.png",
     "static/media/supergoods.png": "/portfolio-new/static/media/supergoods.5282528bd11ee19087c3.png",
@@ -17,13 +18,13 @@
     "static/media/bg.svg": "/portfolio-new/static/media/bg.c27b2acb95a049096fbd.svg",
     "index.html": "/portfolio-new/index.html",
     "main.319ecd7b.css.map": "/portfolio-new/static/css/main.319ecd7b.css.map",
-    "main.63586674.js.map": "/portfolio-new/static/js/main.63586674.js.map",
-    "286.f78ff3f4.chunk.css.map": "/portfolio-new/static/css/286.f78ff3f4.chunk.css.map",
-    "286.5d412152.chunk.js.map": "/portfolio-new/static/js/286.5d412152.chunk.js.map",
+    "main.8028df87.js.map": "/portfolio-new/static/js/main.8028df87.js.map",
+    "42.2d6bae3b.chunk.css.map": "/portfolio-new/static/css/42.2d6bae3b.chunk.css.map",
+    "42.8ff5bdcc.chunk.js.map": "/portfolio-new/static/js/42.8ff5bdcc.chunk.js.map",
     "472.6f61ad9e.chunk.js.map": "/portfolio-new/static/js/472.6f61ad9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.319ecd7b.css",
-    "static/js/main.63586674.js"
+    "static/js/main.8028df87.js"
   ]
 }
