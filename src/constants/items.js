@@ -1,12 +1,11 @@
 import youteam from '../assets/items/youteam.png'
 import charity from '../assets/items/charity.png'
-import comfortLuk from '../assets/items/comfortLuk.png'
 import cantelmo from '../assets/items/cantelmo.png'
 import iclimat from '../assets/items/iclimat.png'
 import supergoods from '../assets/items/supergoods.png'
-import alena from '../assets/items/alena.png'
 import pdf from '../assets/items/pdf.png'
 import weather from '../assets/items/weather.png'
+import cur from '../assets/items/cur.png'
 
 
 export const items = [
@@ -26,12 +25,6 @@ export const items = [
         img: charity,
       },
       {
-        id: 3,
-        title: 'Comfort luk',
-        link: 'https://loner1feed.github.io/luk/',
-        img: comfortLuk,
-      },
-      {
         id: 4,
         title: 'Cantelmo',
         link: 'https://l1feed2.github.io/cantelmo/index.html',
@@ -48,12 +41,6 @@ export const items = [
         title: 'Supergoods',
         link: 'https://loner1feed.github.io/supergoods/',
         img: supergoods,
-      },
-      {
-        id: 7,
-        title: 'Alena',
-        link: 'https://loner1feed.github.io/alena/',
-        img: alena,
       },
     ]
   },
@@ -73,6 +60,13 @@ export const items = [
         title: 'Simple weather app',
         link: 'https://loner1feed.github.io/weather-app/',
         img: weather,
+      },
+
+      {
+        id: 3,
+        title: 'Simple currency converter',
+        link: 'https://loner1feed.github.io/cur-app/',
+        img: cur,
       }
     ]
   }
