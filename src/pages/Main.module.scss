@@ -1,0 +1,57 @@
+.main {
+  position: relative;
+  min-height: 100vh;
+  // background: url(../assets/bg.svg);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  display: grid;
+  place-items: center;
+
+  &__message {
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    background: rgba(#fff, 0.8);
+    border: 3px solid #000fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      font-weight: 600;
+    }
+
+    @media (max-width: 480px) {
+    }
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-height: 100vh;
+  z-index: -1;
+  filter: blur(4px);
+  svg {
+    width: 100%;
+    height: calc(100% - 10px);
+  }
+}

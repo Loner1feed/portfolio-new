@@ -12,6 +12,7 @@ export const Button = ({ text, type = "", link = "" }) => {
           ? [button.button__blue, button.button].join(" ")
           : button.button
       }
+      rel="noreferrer"
     >
       {text}
     </a>

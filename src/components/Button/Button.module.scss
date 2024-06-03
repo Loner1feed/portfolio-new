@@ -13,6 +13,7 @@ $blue-hover: #030ea7;
   text-decoration: none;
   border: 1px solid;
   transition: 0.3s;
+  font-weight: 600;
   &--anim {
     animation: btnAnim 0.5s ease;
   }
