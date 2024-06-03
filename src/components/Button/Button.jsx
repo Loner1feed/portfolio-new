@@ -6,7 +6,6 @@ export const Button = ({ text, type = "", link = "" }) => {
   return (
     <a
       href={link ? link : "javascript://"}
-      download={link ? true : false}
       className={
         type === "blue"
           ? [button.button__blue, button.button].join(" ")
